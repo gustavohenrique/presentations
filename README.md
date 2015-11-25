@@ -1,5 +1,3 @@
-presentations
-=============
+## Vagrant - Virtualizando o ambiente de desenvolvimento
 
-See the *branches* 
-Veja os *branches*
+### Palestra realizada na Wdevconf em 5 nov de 2013

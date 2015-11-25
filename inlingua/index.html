@@ -1,0 +1,228 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>5 Uses of Technology in Our Daily Life</title>
+
+    <meta name="description" content="Apresentacao realizada em 23/06/2015" />
+    <meta name="author" content="Gustavo Henrique" />
+
+    <!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" /> -->
+
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+    <style type="text/css">
+    .subtitle {
+        font-size: 14pt;
+        display: none;
+    }
+    </style>
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+
+    <div id="a" style="text-align:center" class="step" data-x="0" data-y="0" data-scale="2">
+        <h1>5 Uses of Technology in Our Daily Life</h1>
+        <p style="font-size:2rem">September 21<sup style="vertical-align: super; font-size:14px; font-weight:bold">TH</sup>, 2015</p>
+    </div>
+
+
+    <div id="b" class="step" data-x="-2000" data-y="3000" data-rotate="90" data-scale="5">
+        <h1>Who am I?</h1>
+        <ul>
+            <li>&bull; A Brazilian Guy</li>
+            <li>&bull; An English Student</li>
+        </ul>
+        <p style="font-size:2rem">More in <a>http://about.me/gustavohenrique</a></p>
+    </div>
+
+    <div id="c" class="step" data-x="2500" data-y="2100" data-rotate="180" data-scale="6">
+        <h1>Agenda</h1>
+        <ul>
+            <li>1. Learning English</li>
+            <li>2. Travel Arrangements</li>
+            <li>3. Urbanization</li>
+            <li>4. Habits and Routines</li>
+            <li>5. Cooking</li>
+        </ul>
+    </div>
+
+    <div id="1" class="step" data-x="3000" data-y="6500" data-rotate="180" data-scale="6">
+        <h1>1. Learning English</h1>
+        <img src="images/1.png">
+        <div class="subtitle">Most of the time the people start a new english course to be able to improve their knowledge.
+Every year a company called Linkedin makes a quiz about what the most important competency to know. Many participants say that speak in english is the most important ability to get a good job. I agree to an extent because a good experience is so important as speak in english.</div>
+    </div>
+
+    <div id="2" class="step" data-x="10050" data-y="5950" data-rotate="180" data-scale="6">
+        <h1>2. Travel Arrangements</h1>
+        <img src="images/2.jpg">
+        <div class="subtitle">Incredible places to visit can be found by people using a computer. The internet is the best way to learn about your destination. Also you can book the cheapest hotels.
+Once a while is more cheap to make a reservation in a hotel via internet than via telephone.</div>
+    </div>
+
+    <div id="3" class="step" data-x="17050" data-y="6000" data-rotate="180" data-scale="6">
+        <h1>3. Urbanization</h1>
+        <img src="images/3.jpg">
+        <div class="subtitle">Some big cities have cameras distributed along of them to provide important informations for the citizens.
+In Rio for example there are cameras on top of a beautiful large round building located in commercial area that provides traffic information.</div>
+    </div>
+
+    <div id="4" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <h1>4. Habits and Routines</h1>
+        <img src="images/4.jpg">
+        <div class="subtitle">Most of the employee's daily life starts when their alarms goes off and after getting up, they sets off drive to work or gets on the bus. In some cities is possible to see via cell phone how intense is the traffic and see the buses schedules.</div>
+    </div>
+
+
+    <div id="5" class="step" data-x="16000" data-y="14000" data-scale="2">
+        <h1>5. Cooking</h1>
+        <img src="images/5.jpg">
+        <div class="subtitle">If you cook then probably have the benefits given by technology. The more sophisticated stoves allow you to prepare a wonderful dinner. For example, you can broil beef, roast potatoes and boil eggs. Take a peeler, a knife, a frying pan and make delicious French fries.</div>
+    </div>
+
+    <div id="fim" class="step" data-x="6200" data-y="4500" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2" style="text-align:center">
+        <h1>Thank you!</h1>
+        <p>Questions?</p>
+        <div style="font-size:14pt">No questions, please!</div>
+    </div>
+
+</div>
+
+<!--
+
+    Hint is not related to impress.js in any way.
+
+    But it can show you how to use impress.js features in creative way.
+
+    When the presentation step is shown (selected) its element gets the class of "active" and the body element
+    gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
+    so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
+    the id of `bored`) is active, body element gets a class of `impress-on-bored`.
+
+    This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
+    the first step of presentation is visible for a couple of seconds.
+
+    ...
+
+    And when it comes to this piece of JavaScript below ... kids, don't do this at home ;)
+    It's just a quick and dirty workaround to get different hint text for touch devices.
+    In a real world it should be at least placed in separate JS file ... and the touch content should be
+    probably just hidden somewhere in HTML - not hard-coded in the script.
+
+    Just sayin' ;)
+
+-->
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<!--
+
+    Last, but not least.
+
+    To make all described above really work, you need to include impress.js in the page.
+    I strongly encourage to minify it first.
+
+    In here I just include full source of the script to make it more readable.
+
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. Not only because it's a good practice, but also
+    because it should be done when the whole document is ready.
+    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
+
+-->
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+<!--
+
+    The `impress()` function also gives you access to the API that controls the presentation.
+
+    Just store the result of the call:
+
+        var api = impress();
+
+    and you will get three functions you can call:
+
+        `api.init()` - initializes the presentation,
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation,
+        `api.goto( idx | id | element, [duration] )` - moves the presentation to the step given by its index number
+                id or the DOM element; second parameter can be used to define duration of the transition in ms,
+                but it's optional - if not provided default transition duration for the presentation will be used.
+
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+
+-->
+
+</body>
+</html>
+
+<!--
+
+    Now you know more or less everything you need to build your first impress.js presentation, but before
+    you start...
+
+    Oh, you've already cloned the code from GitHub?
+
+    You have it open in text editor?
+
+    Stop right there!
+
+    That's not how you create awesome presentations. This is only a code. Implementation of the idea that
+    first needs to grow in your mind.
+
+    So if you want to build great presentation take a pencil and piece of paper. And turn off the computer.
+
+    Sketch, draw and write. Brainstorm your ideas on a paper. Try to build a mind-map of what you'd like
+    to present. It will get you closer and closer to the layout you'll build later with impress.js.
+
+    Get back to the code only when you have your presentation ready on a paper. It doesn't make sense to do
+    it earlier, because you'll only waste your time fighting with positioning of useless points.
+
+    If you think I'm crazy, please put your hands on a book called "Presentation Zen". It's all about
+    creating awesome and engaging presentations.
+
+    Think about it. 'Cause impress.js may not help you, if you have nothing interesting to say.
+
+-->
+
+<!--
+
+    Are you still reading this?
+
+    For real?
+
+    I'm impressed! Feel free to let me know that you got that far (I'm @bartaz on Twitter), 'cause I'd like
+    to congratulate you personally :)
+
+    But you don't have to do it now. Take my advice and take some time off. Make yourself a cup of coffee, tea,
+    or anything you like to drink. And raise a glass for me ;)
+
+    Cheers!
+
+-->
+
